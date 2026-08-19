@@ -1,0 +1,31 @@
+id,canal,etapa,tipo_solicitud,texto,urgencia,requiere_medicion,restriccion_vehiculo,riesgo_principal,decision_humana_requerida,tono
+R001,WhatsApp,brief,cambio_logo,Necesitamos agrandar el logo del costado sin que se corte en la puerta.,media,1,puerta_corredera,corte_en_union,1,neutral
+R002,correo,brief,medidas,"Adjunto medidas del lateral, pero falta confirmar la altura útil bajo la moldura.",alta,1,moldura_lateral,medida_incompleta,1,neutral
+R003,WhatsApp,correccion,color,"El negro debe pasar un poco hacia la puerta, como en la referencia aprobada.",media,0,puerta,desalineacion_visual,1,neutral
+R004,reunion,correccion,logo,"La M lateral puede crecer un poco, pero sin deformarla ni cortar ninguna parte.",media,0,panel_lateral,deformacion_logo,1,positivo
+R005,correo,produccion,restriccion,No cubrir ventilaciones ni emblemas del vehículo.,alta,1,ventilacion_emblemas,riesgo_funcional,1,neutral
+R006,WhatsApp,produccion,tapa_combustible,Mover web y teléfono para que no queden sobre la tapa de combustible.,alta,1,tapa_combustible,corte_datos_contacto,1,neutral
+R007,reunion,brief,identidad,Mantener los colores originales de la marca y el rayo amarillo correcto.,alta,0,identidad_marca,inconsistencia_marca,1,neutral
+R008,WhatsApp,correccion,proporcion,"El diseño se ve bien, pero la franja inferior quedó demasiado alta.",media,0,zócalo,proporcion_incorrecta,1,neutral
+R009,correo,produccion,material,Confirmar si el vinilo será laminado antes de definir terminaciones.,alta,1,material,durabilidad,1,neutral
+R010,WhatsApp,correccion,texto,El número de contacto debe quedar legible y fuera de zonas de corte.,alta,1,zona_corte,perdida_legibilidad,1,neutral
+R011,reunion,brief,servicios,"Mostrar impresiones, merchandising, tecnología UV y personalización con iconos simples.",baja,0,panel_trasero,sobrecarga_visual,1,positivo
+R012,correo,correccion,jerarquia,El slogan necesita más jerarquía que los datos de contacto.,baja,0,panel_trasero,jerarquia_visual,1,neutral
+R013,WhatsApp,produccion,puerta,El rayo no debe cruzar el corte de apertura de la puerta.,alta,1,corte_puerta,levantamiento_vinilo,1,neutral
+R014,correo,brief,fotografias,Falta una foto totalmente lateral y otra frontal sin perspectiva.,alta,1,vistas_vehiculo,referencia_insuficiente,1,negativo
+R015,WhatsApp,correccion,borde,Agregar borde negro al icono amarillo para mejorar lectura.,baja,0,iconografia,baja_legibilidad,0,positivo
+R016,reunion,produccion,patente,La zona de patente debe quedar completamente libre.,alta,1,patente,obstruccion,1,neutral
+R017,correo,brief,web,La página web cambió; reemplazar el dato anterior en todas las vistas.,alta,0,datos_contacto,version_desactualizada,1,neutral
+R018,WhatsApp,correccion,alineacion,Alinear el bloque de servicios con el borde inferior de la puerta.,media,0,puerta,desalineacion_visual,0,neutral
+R019,reunion,produccion,molduras,Evitar pegar sobre gomas y molduras que puedan generar levantamiento.,alta,1,molduras_gomas,falla_instalacion,1,neutral
+R020,correo,brief,aprobacion,"El cliente aprobó el concepto, pero faltan validar medidas finales antes de producir.",alta,1,medidas_finales,produccion_prematura,1,positivo
+R021,WhatsApp,correccion,composicion,Mover los datos hacia el panel posterior para liberar la tapa de combustible.,media,1,panel_posterior,interferencia_elementos,1,neutral
+R022,correo,produccion,corte,Dejar tolerancia adicional en el borde inferior para terminación y calor.,media,1,borde_inferior,terminacion_deficiente,1,neutral
+R023,reunion,brief,objetivo,"La gráfica debe verse profesional, colorida y reconocible a distancia.",media,0,composicion_general,exceso_elementos,1,positivo
+R024,WhatsApp,correccion,fidelidad,Montar el diseño tal como la referencia sin reinterpretar la forma de la M.,alta,0,logo,desviacion_referencia,1,negativo
+R025,correo,brief,vehiculo,Confirmar modelo exacto y año del vehículo antes de preparar plantilla.,alta,1,modelo_vehiculo,plantilla_incorrecta,1,neutral
+R026,WhatsApp,correccion,escala,Agrandar ligeramente el logo lateral manteniendo sus proporciones.,media,0,panel_lateral,deformacion_logo,1,positivo
+R027,reunion,produccion,instalacion,Separar piezas en zonas de apertura para que la gráfica pueda instalarse y mantenerse.,alta,1,juntas_apertura,falla_instalacion,1,neutral
+R028,correo,correccion,datos,Revisar que teléfono y web correspondan a la versión vigente del cliente.,alta,0,datos_contacto,version_desactualizada,1,neutral
+R029,WhatsApp,brief,mensaje,El texto principal debe leerse antes que la lista de servicios.,baja,0,jerarquia,baja_legibilidad,0,neutral
+R030,reunion,produccion,revision_final,"Antes de imprimir, comparar montaje, medidas, cortes y datos con el brief aprobado.",alta,1,revision_final,error_acumulado,1,positivo
