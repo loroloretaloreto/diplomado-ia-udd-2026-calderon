@@ -1,0 +1,17 @@
+FUENTE 1 — CONTEXTO DEL PROYECTO
+Agencia de Diseño Gráfico y Comunicación Visual
+
+La organización desarrollada durante el Diplomado corresponde a una agencia orientada a crear soluciones visuales para empresas, emprendedores e instituciones. El trabajo combina relación comercial, coordinación de proyectos, dirección creativa, diseño gráfico y producción.
+
+El análisis previo mostró que la calidad final no depende únicamente de la creatividad. También depende de que el brief llegue completo, los cambios del cliente queden registrados, todos trabajen con la versión vigente y exista una comunicación clara entre las distintas áreas.
+
+Problemas observados:
+- sobrecarga de trabajo;
+- cambios constantes solicitados por clientes;
+- información dispersa entre correos, mensajes y reuniones;
+- pérdida de información entre etapas;
+- briefs incompletos;
+- instrucciones poco claras;
+- retrasos y reprocesos.
+
+La propuesta de IA nace para apoyar estos problemas organizacionales sin reemplazar la mirada creativa del equipo.
