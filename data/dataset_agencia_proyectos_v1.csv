@@ -1,0 +1,25 @@
+id,tipo_proyecto,canal,mensaje,categoria,urgencia,brief_completo,requiere_accion,rol_responsable,estado
+1,branding,formulario,"El cliente solicita nueva identidad visual pero no indica público objetivo ni aplicaciones principales.",brief_incompleto,media,no,si,Coordinador de Proyectos,pendiente
+2,redes_sociales,WhatsApp,"Cambiar el titular de la campaña por la nueva frase enviada hoy.",solicitud_cambio,media,no_aplica,si,Diseñador Gráfico,en_proceso
+3,packaging,correo,"Aprobamos la propuesta número 2. Pueden preparar los originales finales.",aprobacion,media,no_aplica,si,Director Creativo,aprobado
+4,editorial,reunión,"La entrega debe adelantarse al viernes porque el evento cambió de fecha.",urgencia,alta,no_aplica,si,Coordinador de Proyectos,pendiente
+5,señalética,correo,"Falta confirmar las medidas finales de dos letreros y el material de instalación.",brief_incompleto,alta,no,si,Coordinador de Proyectos,pendiente
+6,merchandising,WhatsApp,"Gracias, quedó perfecto. No necesitamos más cambios.",sin_accion,baja,no_aplica,no,Ejecutivo Comercial,informativo
+7,branding,reunión,"El cliente pide explorar una versión más minimalista, pero todavía no reemplaza la propuesta aprobada.",consulta_cliente,media,no_aplica,si,Director Creativo,pendiente
+8,gráfica_publicitaria,correo,"Producción informa que el archivo recibido tiene imágenes de baja resolución.",produccion,alta,no_aplica,si,Diseñador Gráfico,pendiente
+9,redes_sociales,sistema_interno,"Campaña aprobada y programada. Registrar cierre del proyecto.",entrega,baja,no_aplica,si,Coordinador de Proyectos,resuelto
+10,packaging,formulario,"El brief incluye producto y público, pero no define formato, cantidad de caras ni información legal.",brief_incompleto,media,no,si,Coordinador de Proyectos,pendiente
+11,editorial,WhatsApp,"¿Podemos probar otra tipografía antes de decidir?",consulta_cliente,baja,no_aplica,si,Director Creativo,pendiente
+12,branding,correo,"El cliente cambió el nombre de la marca. Debemos actualizar todas las piezas desarrolladas.",solicitud_cambio,alta,no_aplica,si,Coordinador de Proyectos,en_proceso
+13,señalética,reunión,"La ubicación final cambió y ahora debemos revisar dimensiones y sistema de fijación.",solicitud_cambio,alta,no_aplica,si,Coordinador de Proyectos,en_proceso
+14,redes_sociales,correo,"Enviar los artes finales hoy antes de las 16:00 para publicación mañana.",urgencia,alta,no_aplica,si,Diseñador Gráfico,pendiente
+15,merchandising,formulario,"Cliente solicita 200 unidades personalizadas, pero falta color corporativo y fecha de entrega.",brief_incompleto,alta,no,si,Ejecutivo Comercial,pendiente
+16,packaging,reunión,"Se aprueba estructura, pero el texto legal sigue pendiente de validación del cliente.",aprobacion,media,no,si,Coordinador de Proyectos,en_proceso
+17,branding,WhatsApp,"Usen el logo antiguo para esta pieza solamente. El nuevo sigue en desarrollo.",solicitud_cambio,media,no_aplica,si,Diseñador Gráfico,en_proceso
+18,editorial,correo,"Imprenta solicita 3 mm de sangrado y conversión del archivo a CMYK.",produccion,alta,no_aplica,si,Diseñador Gráfico,pendiente
+19,gráfica_publicitaria,WhatsApp,"¿Cuál de las dos propuestas recomiendan para mantener coherencia con la campaña anterior?",consulta_cliente,media,no_aplica,si,Director Creativo,pendiente
+20,señalética,sistema_interno,"Cliente confirmó medidas y material. Brief actualizado como completo.",aprobacion,media,si,si,Coordinador de Proyectos,aprobado
+21,redes_sociales,WhatsApp,"Buenísimo, muchas gracias.",sin_accion,baja,no_aplica,no,Ejecutivo Comercial,informativo
+22,branding,reunión,"Se detectó que el cliente envió dos versiones distintas del mismo texto institucional.",brief_incompleto,alta,no,si,Coordinador de Proyectos,pendiente
+23,packaging,correo,"Modificar solo el color secundario. El resto del diseño queda aprobado sin cambios.",solicitud_cambio,media,no_aplica,si,Diseñador Gráfico,en_proceso
+24,merchandising,sistema_interno,"Pedido producido y entregado. Archivar versiones finales y aprobación del cliente.",entrega,baja,no_aplica,si,Coordinador de Proyectos,resuelto
