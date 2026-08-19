@@ -1,0 +1,23 @@
+FUENTE 4 — IA, SESGOS Y CONTROL HUMANO
+
+La IA propuesta funciona como asistente interno para la gestión y seguimiento de proyectos creativos. Puede revisar briefs, detectar información faltante, resumir requerimientos, registrar cambios, comparar versiones, generar alertas y preparar reportes.
+
+Sin embargo, cuando una IA resume, ordena o prioriza información también influye en la decisión del usuario. Esto puede producir sesgo de automatización, anclaje, exceso de confianza o pérdida de matices.
+
+Salvaguardas definidas para el proyecto:
+- mostrar la fuente original junto a los resúmenes importantes;
+- diferenciar hechos, inferencias y recomendaciones;
+- pedir aprobación humana antes de aplicar cambios de alcance;
+- permitir editar, rechazar y deshacer recomendaciones;
+- registrar quién aprobó una decisión y qué versión estaba vigente;
+- explicar por qué una alerta fue priorizada;
+- no tratar una recomendación como requisito confirmado.
+
+Decisiones que deben seguir siendo humanas:
+- aprobación creativa;
+- negociación con clientes;
+- compromisos de precio, plazo y alcance;
+- decisiones de alto impacto;
+- evaluación estética final.
+
+El principio central es reducir carga operativa sin reducir la agencia humana.
