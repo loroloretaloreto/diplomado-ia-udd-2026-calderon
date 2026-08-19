@@ -1,0 +1,5 @@
+IA COMO ASISTENTE, NO COMO AUTORIDAD
+
+La IA puede ordenar, comparar y advertir; la aprobación del diseño y la viabilidad de instalación siguen siendo humanas. Puede detectar que falta una medida, resumir una lista de cambios, comparar dos versiones de un brief, clasificar una observación por urgencia y preparar un checklist. No debería decidir por sí sola si un diseño es estéticamente correcto, si una medida es suficiente, si un vinilo puede instalarse en una zona compleja ni si el cliente aprobó un cambio.
+
+Riesgos: alucinación, omisión, exceso de confianza, anclaje en el resumen de IA y propagación de una interpretación incorrecta. Salvaguardas: fuente visible, versionado, confirmación humana, posibilidad de editar o rechazar y registro de quién aprobó cada cambio.
