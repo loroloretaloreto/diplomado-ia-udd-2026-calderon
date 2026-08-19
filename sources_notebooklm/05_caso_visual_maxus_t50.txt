@@ -1,0 +1,5 @@
+CASO VISUAL DE REFERENCIA — PICKUP MANORIGEN
+
+La propuesta visual de referencia utiliza una pickup blanca con gráfica de marca Manorigen. El sistema visual combina el logotipo multicolor, grandes bloques negros en la caja, acentos geométricos en colores vivos y una franja cromática inferior. En los laterales se separa el rol de la cabina —identificación de marca— del rol de la caja —mensaje, servicios y contacto—. En el frontal se usan acentos gráficos sin ocultar la parrilla ni los elementos principales del vehículo. En la parte trasera se priorizan marca, slogan, servicios, QR y datos de contacto.
+
+Este caso sirve para analizar jerarquía, continuidad entre vistas, lectura a distancia, restricciones físicas y necesidad de adaptar la gráfica a cada cara del vehículo sin perder identidad.
