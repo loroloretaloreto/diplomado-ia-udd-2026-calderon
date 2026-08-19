@@ -1,70 +1,49 @@
 # Hallazgos NotebookLM — Clase 24
 
-**Proyecto:** Manorigen IA — rotulación vehicular  
+**Proyecto:** Agencia de Diseño Gráfico y Comunicación Visual  
 **Estudiante:** Loreto Calderón
 
-## Hallazgo 1 — El retrabajo comienza antes del diseño
+## Hallazgo 1 — El problema principal no es creativo, sino de información y coordinación
 
-El problema no aparece solamente cuando una propuesta visual está mal resuelta. Muchas correcciones nacen porque el brief llega incompleto o repartido entre fotografías, mensajes, medidas y comentarios. La primera oportunidad de mejora es crear una **fuente única del proyecto** antes de diseñar.
+Las fuentes muestran que muchos errores y reprocesos aparecen por briefs incompletos, cambios que no quedan registrados, información distribuida entre distintos canales y pérdida de contexto entre Comercial, Coordinación de Proyectos, Dirección Creativa y Diseño.
 
-**Fuentes relacionadas:** 01_contexto_proyecto, 02_flujo_rotulacion.
+**Implicancia para el proyecto:** el asistente IA debe priorizar orden, trazabilidad y revisión de información antes que intentar “diseñar por el equipo”.
 
-## Hallazgo 2 — La viabilidad técnica es parte del diseño
+## Hallazgo 2 — La IA aporta más valor como asistente de gestión que como sustituto creativo
 
-Puertas, tapas, molduras, gomas, manillas, emblemas, ventilaciones y patente no son detalles posteriores. Condicionan composición, ubicación de textos, continuidad gráfica y forma de instalar. Un sistema que solo evalúe estética sería insuficiente.
+Las tareas más adecuadas para automatizar son revisar completitud, resumir requerimientos, detectar faltantes, comparar versiones, clasificar mensajes, generar alertas y preparar reportes. La evaluación estética, la negociación con clientes y la aprobación de cambios importantes deben mantenerse en manos humanas.
 
-**Fuentes relacionadas:** 02_flujo_rotulacion, 03_restricciones_tecnicas.
+**Implicancia:** el sistema debe diseñarse como una capa de apoyo al flujo creativo, no como un agente que toma decisiones creativas finales.
 
-## Hallazgo 3 — La IA aporta más valor como memoria y checklist que como “diseñador automático”
+## Hallazgo 3 — Un resumen útil también puede generar sesgo de automatización
 
-Las tareas con mejor encaje son ordenar el brief, detectar faltantes, resumir cambios, clasificar feedback, comparar versiones y recordar restricciones. La aprobación visual y técnica necesita criterio humano.
+Cuando una IA resume un brief, prioriza una alerta o interpreta un cambio, ya está influyendo en la decisión del usuario. Si la interfaz presenta una respuesta con demasiada seguridad, el equipo puede aceptar una síntesis incompleta como si fuera la verdad del proyecto.
 
-**Fuentes relacionadas:** 01_contexto_proyecto, 04_ia_y_control_humano.
+**Implicancia:** cada salida importante debe mostrar fuente, nivel de certeza y posibilidad de volver al material original.
 
-## Hallazgo 4 — El versionado es un problema central
+## Hallazgo 4 — Coordinación de Proyectos y Dirección Creativa son los usuarios clave
 
-Un dato actualizado en una vista y antiguo en otra, o una corrección aprobada que no llega a producción, puede generar errores costosos. El asistente debería registrar **qué cambió, cuándo, quién lo aprobó y cuál es la versión vigente**.
+El Coordinador de Proyectos necesita ordenar tareas, plazos, solicitudes y cambios. El Director Creativo necesita mantener coherencia entre el brief vigente y el trabajo desarrollado. El Diseñador Gráfico se beneficia indirectamente al recibir instrucciones más claras y menos contradictorias.
 
-**Fuentes relacionadas:** 03_restricciones_tecnicas, 04_ia_y_control_humano.
+**Implicancia:** el prototipo debe priorizar las necesidades de estos dos roles y no tratar a toda la agencia como si tuviera el mismo flujo de trabajo.
 
-## Hallazgo 5 — Estandarizar el proceso no significa estandarizar la creatividad
+## Hallazgo 5 — La adopción depende tanto de la organización como de la tecnología
 
-Se puede estandarizar la captura de información, las revisiones técnicas, el control de versiones y el checklist final sin convertir las soluciones visuales en plantillas rígidas. El sistema debería ordenar el proceso y dejar abierta la decisión creativa.
+No basta con elegir un buen modelo de IA. La agencia necesita información utilizable, procesos claros, seguridad de datos, apoyo organizacional, capacitación y reglas de supervisión humana. Los marcos TOE y DOI ayudan a evaluar si la solución realmente puede incorporarse de forma responsable.
 
-**Fuentes relacionadas:** 02_flujo_rotulacion, 05_caso_visual_maxus_t50.
+**Implicancia:** antes de escalar el asistente, se debe validar preparación tecnológica, organizacional y humana.
 
-## Respuesta a las cinco preguntas de research
+## Síntesis general
 
-### 1. Principales puntos de fricción
+La oportunidad principal del proyecto está en **reducir carga operativa sin reducir agencia humana**. Una buena implementación no es la que automatiza más, sino la que vuelve visible la información correcta, mantiene trazabilidad y deja las decisiones sensibles bajo control de las personas.
 
-- Briefs incompletos o dispersos.
-- Medidas pendientes o poco confiables.
-- Restricciones del vehículo detectadas tarde.
-- Correcciones sucesivas sin control de versión.
-- Diferencia entre una maqueta atractiva y una solución instalable.
+## Decisiones de diseño derivadas
 
-### 2. Restricciones que deben quedar visibles
-
-Puertas, tapas, molduras, gomas, manillas, emblemas, ventilaciones, patente, uniones, datos que no pueden cruzar cortes y medidas finales validadas.
-
-### 3. IA vs. decisión humana
-
-**IA:** ordenar, resumir, comparar, clasificar, detectar faltantes y preparar checklists.  
-**Humano:** validar medidas, interpretar intención de marca, aprobar composición, decidir solución de instalación y autorizar producción.
-
-### 4. Errores por cambios de brief
-
-Datos antiguos, textos distintos entre vistas, logos con escalas no aprobadas, posiciones que vuelven a una versión anterior y producción basada en una maqueta obsoleta.
-
-### 5. Oportunidades
-
-Un brief estructurado, una lista de restricciones por vehículo, control de versiones y un checklist de preproducción pueden reducir retrabajos sin limitar la creatividad.
-
-## Dos cosas que una síntesis automática puede dejar afuera
-
-1. El conocimiento tácito del instalador: curvaturas, tensión del material, calor, remates y comportamiento real del vinilo.
-2. La intención estética del cliente: una corrección aparentemente pequeña puede estar asociada a percepción de marca, confianza o preferencia personal difícil de inferir desde texto aislado.
-
-## Reflexión personal
-
-NotebookLM es útil porque obliga a trabajar desde un conjunto de fuentes definido y permite volver a la evidencia. Para este proyecto eso es especialmente importante: una respuesta rápida sirve solo si puedo saber de dónde salió y verificarla antes de convertirla en una decisión de producción.
+- Fuente original siempre disponible.
+- Cambios de alcance requieren aprobación humana.
+- Alertas explicables y reordenables.
+- Recomendaciones etiquetadas como recomendaciones.
+- Historial de versiones y responsables.
+- Posibilidad de corregir, rechazar y deshacer.
+- No inferir emociones o intenciones sin evidencia.
+- Medir éxito por reducción de reprocesos y errores, no solo por velocidad.
