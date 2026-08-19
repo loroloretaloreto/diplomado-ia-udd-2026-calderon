@@ -1,0 +1,19 @@
+FUENTE 5 — TOE, DOI Y ADOPCIÓN RESPONSABLE DE IA
+
+El proyecto también se analizó mediante los marcos TOE y DOI.
+
+TOE permite observar tres contextos:
+- Tecnológico: infraestructura, disponibilidad y calidad de información, compatibilidad, seguridad y capacidad técnica.
+- Organizacional: apoyo de la dirección, preparación de los equipos, capacitación, procesos, recursos y gobernanza.
+- Ambiental: clientes, proveedores, competencia, regulación y condiciones externas.
+
+DOI ayuda a observar cómo las personas perciben la innovación:
+- ventaja relativa;
+- compatibilidad con el trabajo actual;
+- complejidad;
+- posibilidad de probar la solución antes de implementarla;
+- visibilidad de sus beneficios.
+
+Para la agencia, una implementación responsable exige más que un modelo técnicamente capaz. Se necesita información ordenada, reglas de uso, seguridad de datos, capacitación, apoyo organizacional, supervisión humana y mecanismos para corregir errores.
+
+El diagnóstico del proyecto busca saber si la organización está realmente preparada para incorporar un asistente IA en la gestión de proyectos creativos y no solo si la tecnología existe.
