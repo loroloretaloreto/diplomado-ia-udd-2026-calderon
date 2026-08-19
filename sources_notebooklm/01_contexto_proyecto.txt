@@ -1,0 +1,5 @@
+MANORIGEN IA — CONTEXTO DEL PROYECTO
+
+Manorigen desarrolla proyectos de diseño, impresión, merchandising, tecnología UV y personalización. En rotulación vehicular, el trabajo comienza con un brief compuesto por fotografías, logo, colores, medidas, textos, restricciones y observaciones del cliente. El problema aparece cuando esa información llega por distintos canales o cambia durante el proyecto. El objetivo del asistente de IA es ordenar la información, detectar faltantes, resumir correcciones y mantener trazabilidad. La IA no aprueba el diseño final ni reemplaza el criterio técnico.
+
+Principio: la rapidez es útil solo si se conserva la posibilidad de revisar la fuente original y verificar las medidas reales.
