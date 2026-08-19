@@ -1,5 +1,0 @@
-CRITERIOS Y RESTRICCIONES TÉCNICAS
-
-Las restricciones físicas condicionan la composición. La tapa de combustible, las puertas, molduras, manillas, logos, patente y zonas de ventilación deben tratarse como restricciones de producción. Los datos de contacto no deberían cruzar cortes o quedar en elementos móviles. Los logos no deben deformarse. Las piezas que pasan por una puerta o unión necesitan una decisión explícita de corte y continuidad visual. Las medidas deben validarse antes de producción.
-
-Errores frecuentes: usar una vista en perspectiva como si fuera plano, trabajar con datos de contacto antiguos, no registrar la última corrección aprobada, cubrir un elemento que necesita abrir, y escalar un logo alterando su proporción.
