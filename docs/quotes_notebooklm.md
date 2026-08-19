@@ -1,10 +1,11 @@
 # Quotes destacables — Clase 24
 
-1. **“Una propuesta visual no está lista para producción solo porque se ve bien en una maqueta.”**  
-   Fuente: `02_flujo_rotulacion.txt`
+**Proyecto:** Agencia de Diseño Gráfico y Comunicación Visual
 
-2. **“La tapa de combustible, las puertas, molduras, manillas, logos, patente y zonas de ventilación deben tratarse como restricciones de producción.”**  
-   Fuente: `03_restricciones_tecnicas.txt`
+> “El principal valor de la IA no está en decidir mejor que el equipo, sino en volver visible la información necesaria para que el equipo pueda decidir mejor.”
 
-3. **“La IA puede ordenar, comparar y advertir; la aprobación del diseño y la viabilidad de instalación siguen siendo humanas.”**  
-   Fuente: `04_ia_y_control_humano.txt`
+> “Un brief incompleto, un cambio de cliente que no queda registrado o una instrucción poco clara puede afectar directamente el trabajo del equipo.”
+
+> “La IA puede detectar, comparar, resumir y sugerir; la aprobación creativa, la negociación con clientes y los cambios de alto impacto deben mantenerse bajo responsabilidad humana.”
+
+Estas frases sintetizan el criterio central del proyecto: **automatizar apoyo y trazabilidad sin entregar a la IA decisiones que requieren juicio, responsabilidad o contexto humano.**
