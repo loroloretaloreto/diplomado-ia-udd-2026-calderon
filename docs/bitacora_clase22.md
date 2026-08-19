@@ -1,50 +1,87 @@
 # Bitácora — Clase 22
 
-**Proyecto:** Manorigen IA — rotulación vehicular  
+**Proyecto:** Agencia de Diseño Gráfico y Comunicación Visual  
 **Estudiante:** Loreto Calderón
 
-## Ejercicio de embeddings
+## Objetivo de la clase
 
-Para el ejercicio se eligieron palabras del proceso real de rotulación:
+Personalizar los ejercicios de IA con el proyecto que venimos desarrollando en el Diplomado, evitando ejemplos genéricos y trabajando directamente con problemas reales de coordinación de una agencia creativa.
 
-`rotulacion`, `vinilo`, `impresion`, `corte`, `instalacion`, `vehiculo`, `branding`, `logotipo`, `color`, `composicion`, `medidas`, `cliente`.
+## Caso elegido
 
-### ¿Qué me interesa observar?
+La agencia recibe briefs, correos, mensajes y solicitudes de cambio que deben pasar por Comercial, Coordinación de Proyectos, Dirección Creativa y Diseño. Cuando la información llega incompleta o queda dispersa, aparecen retrasos, correcciones y reprocesos.
 
-Me interesa ver si el modelo acerca los conceptos técnicos —por ejemplo, **vinilo, corte, instalación y medidas**— a los conceptos visuales —**branding, logotipo, color y composición**—. En la práctica todos forman parte del mismo proyecto, pero para un modelo pueden aparecer como grupos distintos.
+## Ejercicio 1 — Palabras y relaciones semánticas
 
-### ¿Qué combinación podría resultar extraña?
+Palabras utilizadas:
 
-Puede ocurrir que el modelo acerque “vinilo” a “branding” más de lo que acerca “vinilo” a “instalación”, porque fue entrenado con usos del lenguaje más amplios que el contexto específico de Manorigen. Esto demuestra que una similitud matemática no equivale a una verdad del proyecto.
+- brief
+- cliente
+- diseño
+- cambio
+- aprobación
+- plazo
+- producción
+- requerimiento
+- prioridad
+- corrección
 
-## Modelo analítico vs. generativo
+La idea fue observar que conceptos que en una agencia están relacionados también deberían aparecer cercanos para un modelo semántico. Por ejemplo, `brief` debería relacionarse con `requerimiento`, mientras que `cambio` debería asociarse con `corrección`, `aprobación` y `plazo`.
 
-### Frases probadas en clasificación
+## Ejercicio 2 — Clasificación de mensajes
 
-1. “La propuesta se ve moderna y respeta muy bien la identidad de la marca.”
-2. “El diseño se corta justo en la tapa de combustible y así no se puede instalar.”
-3. “La propuesta está bien, pero todavía falta revisar las medidas del portalón.”
-4. “El cliente aprobó el concepto general, aunque pidió agrandar el logo lateral.”
-5. “La información llegó incompleta y tuvimos que rehacer parte del montaje.”
+Se plantearon mensajes típicos del flujo de trabajo:
 
-### Observación
+- “El cliente aprobó el diseño final.” → **aprobación**
+- “Necesitamos cambiar el color y el tamaño del logo antes de imprimir.” → **solicitud de cambio**
+- “Falta confirmar la medida final y el material.” → **información faltante**
+- “La entrega debe estar lista mañana antes de las 12:00.” → **urgente**
+- “Gracias, quedó perfecto.” → **sin acción requerida**
 
-El modelo analítico entrega una etiqueta concreta para cada frase. Es útil para **ordenar feedback**, detectar mensajes problemáticos o clasificar observaciones. El modelo generativo, en cambio, produce texto nuevo y cambia entre ejecuciones; puede ayudar a explorar soluciones, pero exige más revisión.
+Este ejercicio muestra una posible función analítica del asistente: detectar qué mensajes requieren seguimiento y cuáles son solamente informativos.
 
-## Prompt generativo usado
+## Ejercicio 3 — Generación de resumen
 
-> En un proyecto de rotulación vehicular de Manorigen, una propuesta de diseño debe equilibrar identidad visual, legibilidad, medidas reales del vehículo, zonas que no pueden cubrirse y facilidad de instalación. Una buena asistencia de IA debería...
+Prompt usado como caso del proyecto:
 
-### Reflexión
+> Resume el siguiente brief de un cliente de una agencia de diseño. Separa objetivo, piezas solicitadas, requisitos obligatorios, información faltante, plazo y cambios pendientes. No inventes información. Si algo no aparece, márcalo como “por confirmar”.
 
-La parte más interesante fue entender que el sistema no “ve” el proyecto como una diseñadora o instalador. Convierte palabras y textos en representaciones matemáticas y busca patrones. Eso puede acelerar tareas, pero no reemplaza el conocimiento sobre materiales, cortes, molduras, tapas, puertas, proporciones o lectura visual.
+### Aprendizaje
 
-## Tres modelos de Hugging Face que llamaron mi atención
+Un resumen puede reducir carga de lectura, pero también puede generar exceso de confianza. Por eso el sistema debe mantener visible el texto original y diferenciar claramente entre hechos, inferencias y recomendaciones.
 
-1. **sentence-transformers/all-MiniLM-L6-v2** — porque convierte texto en embeddings y permite comparar conceptos o documentos.
-2. **nlptown/bert-base-multilingual-uncased-sentiment** — porque puede clasificar el tono de comentarios en español y sirve como ejemplo de modelo analítico.
-3. **stabilityai/stable-diffusion-xl-base-1.0** — porque representa el lado generativo visual y permite pensar cómo la IA puede apoyar exploración de estilos y composición.
+## Ejercicio 4 — Comparación analítico vs. generativo
 
-## Pregunta de cierre
+### Modelo analítico
 
-Lo más importante para mí es distinguir entre **usar una IA para explorar** y **delegarle una decisión**. En diseño, una respuesta plausible puede ser útil como punto de partida, pero sigue necesitando criterio profesional y verificación técnica.
+Puede clasificar mensajes, detectar urgencia, extraer fechas, identificar responsables o comprobar campos faltantes.
+
+### Modelo generativo
+
+Puede resumir briefs, redactar minutas, preparar reportes de avance o convertir conversaciones extensas en información estructurada.
+
+### Decisión para el proyecto
+
+El asistente necesita ambos enfoques. Primero debe **detectar y estructurar** información; después puede **generar** resúmenes y borradores útiles para el equipo.
+
+## Modelos candidatos
+
+1. **Gemini Flash** para clasificación rápida, extracción y tareas repetitivas.
+2. **Gemini Pro** para análisis de contexto más largo, briefs complejos y generación de síntesis.
+3. **Google AI Studio** como entorno de prototipado para probar instrucciones, formato de salida y comportamiento.
+
+## Riesgos detectados
+
+- Confundir una recomendación con una instrucción aprobada.
+- Omitir una excepción importante al resumir.
+- Priorizar mal una alerta.
+- Tomar un mensaje ambiguo como cambio confirmado.
+- Automatizar una decisión que debería validar una persona.
+
+## Criterio de diseño
+
+La IA debe ayudar a que el equipo vea mejor la información, no a reemplazar la decisión creativa. Las acciones sensibles deben incluir fuente, contexto, aprobación humana y posibilidad de corregir.
+
+## Reflexión personal
+
+Esta clase me ayudó a entender que los ejercicios técnicos tienen más sentido cuando se conectan con un problema real del proyecto. En nuestro caso, la IA puede aportar mucho en ordenar y revisar información, pero el valor creativo y las decisiones con clientes siguen dependiendo del equipo humano.
