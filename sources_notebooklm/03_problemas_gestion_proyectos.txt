@@ -1,0 +1,16 @@
+FUENTE 3 — PROBLEMAS EN LA GESTIÓN DE PROYECTOS CREATIVOS
+
+Durante el análisis del proyecto se identificaron situaciones que generan errores y reprocesos:
+
+- El cliente entrega información por distintos medios.
+- Algunos requerimientos no quedan claros desde el inicio.
+- Los cambios pueden llegar cuando el diseño ya está avanzado.
+- No siempre queda registrado qué versión fue aprobada.
+- Un cambio puede afectar piezas, plazos, costos o producción.
+- Una instrucción verbal puede no llegar completa al diseñador.
+- El equipo puede trabajar con una versión antigua del brief.
+- La urgencia de una solicitud puede desplazar otras prioridades importantes.
+
+Un brief incompleto puede hacer que el diseñador avance con información insuficiente. Un cambio sin trazabilidad puede propagarse a varias piezas. Una síntesis mal interpretada puede convertirse en una falsa instrucción.
+
+Por eso el proyecto busca centralizar información, registrar cambios, comparar versiones y mantener visible la fuente original de cada decisión importante.
