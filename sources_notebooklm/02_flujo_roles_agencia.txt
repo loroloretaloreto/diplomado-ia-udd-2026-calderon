@@ -1,0 +1,20 @@
+FUENTE 2 — FLUJO Y ROLES DE LA AGENCIA
+
+Roles principales:
+
+1. Director General: define estrategia, toma decisiones relevantes y supervisa resultados.
+2. Ejecutivo Comercial: capta clientes, gestiona relación comercial inicial y transmite necesidades del cliente.
+3. Coordinador de Proyectos: organiza tareas, plazos, solicitudes, cambios y traspasos de información.
+4. Director Creativo: revisa coherencia conceptual y calidad creativa, validando que el trabajo responda al brief vigente.
+5. Diseñador Gráfico: desarrolla las piezas visuales a partir de instrucciones y requerimientos aprobados.
+
+Funciones transversales del flujo:
+- registro de requerimientos;
+- control de calidad;
+- entrega de proyectos;
+- seguimiento de cambios;
+- producción.
+
+El Coordinador de Proyectos conecta Comercial, Dirección Creativa, Diseño y Producción. Por eso es uno de los usuarios principales del asistente IA. El Director Creativo también es clave porque necesita revisar que los requerimientos iniciales y los cambios posteriores se mantengan coherentes durante el proceso creativo.
+
+El Diseñador Gráfico se beneficia indirectamente al recibir información más clara, ordenada y trazable.
